@@ -1,12 +1,88 @@
-# React + Vite
+Frontend Developer Intern Test - PT Aksamedia Mulia Digital
+Deskripsi Aplikasi
+Aplikasi ini dibuat untuk memenuhi tes masuk magang Frontend Developer di PT Aksamedia Mulia Digital. Aplikasi ini mencakup fitur-fitur seperti:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Authentication (Login/Logout)
 
-Currently, two official plugins are available:
+Dark/Light Mode (termasuk sistem preferensi OS)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CRUD Operations dengan search, filter, dan pagination
 
-## Expanding the ESLint configuration
+User Profile Editing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+State Persistence menggunakan localStorage dan URL query params
+
+Responsive Design menggunakan Tailwind CSS
+
+Fitur yang Diimplementasikan
+✅ Authentication
+
+Login dengan username & password statis
+
+Nama user ditampilkan di navbar
+
+Dropdown menu untuk logout
+
+Protected routes (hanya bisa diakses setelah login)
+
+✅ Dark/Light Mode
+
+Toggle dark/light mode
+
+Mendukung preferensi sistem OS
+
+State dipertahankan setelah refresh
+
+✅ CRUD Operations
+
+Create, Read, Update, Delete data
+
+Fitur pencarian/filter
+
+Pagination custom (tanpa library)
+
+State dipertahankan di URL (halaman & keyword tetap setelah refresh)
+
+✅ User Profile
+
+Edit nama user
+
+Perubahan langsung terupdate di navbar
+
+✅ Teknologi
+
+React.js
+
+Tailwind CSS
+
+React Router
+
+LocalStorage
+
+Cara Menjalankan Aplikasi
+Prerequisites
+Node.js (v16 atau lebih baru)
+
+npm atau yarn
+
+Instalasi
+Clone repository:
+
+bash
+git clone [URL_REPOSITORY]
+cd nama-folder-project
+Install dependencies:
+
+bash
+npm install
+atau
+
+bash
+yarn install
+Menjalankan Development Server
+bash
+npm run dev
+atau
+
+bash
+yarn dev
